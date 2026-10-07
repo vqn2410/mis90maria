@@ -11,8 +11,8 @@ export default function PetalField({ count = 14 }) {
         size: 9 + Math.random() * 11,
         sway: (Math.random() * 2 - 1) * 70,
         drift: (Math.random() * 2 - 1) * 90,
-        opacity: 0.12 + Math.random() * 0.24,
-        hue: 30 + Math.random() * 18,
+        opacity: 0.22 + Math.random() * 0.28,
+        hue: -10 + Math.random() * 26,
       })),
     [count],
   )
