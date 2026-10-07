@@ -38,24 +38,26 @@ export const MESSAGES = {
   closingNote: 'No le cuentes nada a María.',
 }
 
-export const MUSIC_SRC = '/cancion.mp3'
+const asset = (file) => `${import.meta.env.BASE_URL}${file}`
+
+export const MUSIC_SRC = asset('cancion.mp3')
 
 export const PHOTOS = [
   {
     id: 'portrait',
-    src: '/1.jpeg',
+    src: asset('1.jpeg'),
     alt: 'María retratada con luz cálida entre flores',
     caption: 'Su mirada serena',
   },
   {
     id: 'armchair',
-    src: '/2.jpeg',
+    src: asset('2.jpeg'),
     alt: 'María sentada con elegancia y serenidad',
     caption: 'Elegancia de siempre',
   },
   {
     id: 'smile',
-    src: '/3.jpeg',
+    src: asset('3.jpeg'),
     alt: 'María sonriendo rodeada de flores',
     caption: 'La sonrisa que reúne a todos',
   },
