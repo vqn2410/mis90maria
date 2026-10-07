@@ -39,7 +39,7 @@ export default function EventDetails() {
         <span className="details__punctual-icon" aria-hidden="true">
           ⏰
         </span>
-        <span className="details__punctual-text">20:30 HS PUNTUALES</span>
+        <span className="details__punctual-text">20:30 HS PUNTUAL</span>
       </Reveal>
 
       <Reveal className="details__note" delay={280}>

@@ -3,7 +3,7 @@ export const EVENT = {
   age: 90,
   occasion: '90 años',
   dateLabel: 'Sábado 7 de noviembre',
-  timeLabel: '20:30 hs puntuales',
+  timeLabel: '20:30 hs puntual',
   timeShort: '20:30 HS',
   eventType: 'Fiesta sorpresa',
   address: {
