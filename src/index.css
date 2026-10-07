@@ -32,6 +32,7 @@
 }
 
 html {
+  font-size: 18px;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
@@ -48,7 +49,7 @@ body {
   color: var(--cream);
   font-family: var(--font-sans);
   font-weight: 300;
-  line-height: 1.65;
+  line-height: 1.7;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
@@ -211,7 +212,7 @@ button {
 }
 
 .section__eyebrow {
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   letter-spacing: 0.42em;
   text-transform: uppercase;
   color: var(--gold-deep);
@@ -234,7 +235,7 @@ button {
   padding: 1rem 1.9rem;
   border: 1px solid transparent;
   border-radius: 999px;
-  font-size: 0.95rem;
+  font-size: 1.02rem;
   font-weight: 500;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -347,7 +348,7 @@ button {
 }
 
 .hero__eyebrow {
-  font-size: 0.74rem;
+  font-size: 0.84rem;
   letter-spacing: 0.5em;
   text-transform: uppercase;
   color: var(--muted);
@@ -532,7 +533,7 @@ button {
 
 .hero__whisper {
   margin-top: 1.6rem;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted-soft);
@@ -659,7 +660,7 @@ button {
 
 .photo__signature {
   margin-top: 1.2rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--gold-deep);
@@ -671,7 +672,7 @@ button {
 .gallery__text {
   margin: 1.2rem auto 0;
   max-width: 34rem;
-  font-size: clamp(0.98rem, 4vw, 1.12rem);
+  font-size: clamp(1.08rem, 4.3vw, 1.22rem);
   color: var(--muted);
 }
 
@@ -735,7 +736,7 @@ button {
   margin-top: 12px;
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: clamp(0.85rem, 3.4vw, 1.05rem);
+  font-size: clamp(0.98rem, 3.8vw, 1.18rem);
   text-align: center;
   color: #6b563a;
 }
@@ -872,7 +873,7 @@ button {
 }
 
 .surprise__eyebrow {
-  font-size: 0.68rem;
+  font-size: 0.8rem;
   letter-spacing: 0.46em;
   text-transform: uppercase;
   color: var(--gold-deep);
@@ -916,7 +917,7 @@ button {
 }
 
 .surprise__request {
-  font-size: clamp(1rem, 4.1vw, 1.12rem);
+  font-size: clamp(1.08rem, 4.3vw, 1.22rem);
   color: var(--muted);
   line-height: 1.7;
 }
@@ -935,7 +936,7 @@ button {
   border: 1px solid var(--border);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.7);
-  font-size: 0.74rem;
+  font-size: 0.84rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--gold-deep);
@@ -945,7 +946,7 @@ button {
   margin-top: 1.5rem;
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 0.98rem;
+  font-size: 1.06rem;
   color: var(--muted-soft);
 }
 
@@ -990,7 +991,7 @@ button {
 }
 
 .details__label {
-  font-size: 0.66rem;
+  font-size: 0.78rem;
   letter-spacing: 0.38em;
   text-transform: uppercase;
   color: var(--gold-deep);
@@ -1027,7 +1028,7 @@ button {
 }
 
 .details__type {
-  font-size: 0.74rem;
+  font-size: 0.84rem;
   letter-spacing: 0.34em;
   text-transform: uppercase;
   color: var(--muted-soft);
@@ -1066,7 +1067,7 @@ button {
 }
 
 .countdown__label {
-  font-size: clamp(0.56rem, 2.6vw, 0.7rem);
+  font-size: clamp(0.72rem, 3vw, 0.86rem);
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--muted-soft);
@@ -1347,7 +1348,7 @@ button {
 }
 
 .footer__secret-note {
-  font-size: clamp(0.95rem, 3.8vw, 1.05rem);
+  font-size: clamp(1.05rem, 4.2vw, 1.2rem);
   letter-spacing: 0.06em;
   color: var(--muted);
 }
@@ -1355,7 +1356,7 @@ button {
 .footer__signature {
   margin-top: 2rem;
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: 1.12rem;
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--gold-deep);
@@ -1383,7 +1384,7 @@ button {
   border: 1px solid rgba(184, 145, 47, 0.6);
   background: linear-gradient(135deg, rgba(46, 33, 22, 0.94), rgba(70, 51, 31, 0.94));
   color: #f7f0e2;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.05em;
   cursor: pointer;
@@ -1452,7 +1453,7 @@ button {
 }
 
 .music-player__label {
-  font-size: 0.78rem;
+  font-size: 0.88rem;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1597,7 +1598,7 @@ button {
 }
 
 .intro__eyebrow {
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   letter-spacing: 0.46em;
   text-transform: uppercase;
   color: var(--gold-deep);
@@ -1676,7 +1677,7 @@ button {
 }
 
 .intro__letter-age {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   letter-spacing: 0.4em;
   text-transform: uppercase;
   color: var(--gold-deep);
@@ -1734,7 +1735,7 @@ button {
 }
 
 .intro__hint {
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--muted-soft);
@@ -1747,7 +1748,7 @@ button {
 
 .intro__music {
   margin-top: 1rem;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   letter-spacing: 0.08em;
   color: var(--muted);
 }
